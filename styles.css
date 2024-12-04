@@ -1,0 +1,51 @@
+header {
+    text-align: center;
+}
+
+#error,
+#message {
+    color: red;
+    margin: 20px;
+    text-align: center
+}
+
+.btn-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 140px;
+    font-size: small;
+    background-color: aquamarine;
+}
+
+button:hover {
+    background-color: azure;
+}
+
+section, form {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    display: grid;
+    width: 100%;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Lab10</title>
+</head>
+
+<body>
+
+    <Header>
+        <h2>API calls in JavaScript</h2>
+    </Header>
+
+    <div class='btn-container'>
+        <button id="load-fetch-btn">Fetch Data with<br>fetch()</button>
+        <button id="load-xhr-btn">Fetch Data with<br>XHR</button>
+    </div>
+
+    <p id="error"> </p>
+
+    <section id="section"></section>
+
+    <form action="" id="form">
+        <div>
+            <label for="id">Post ID</label>
+            <input type="text" id="id" required>
+        </div>
+
+        <div>
+            <label for="title">Post title</label>
+            <input type="text" id="title" required>
+        </div>
+
+        <div><label for="body">Post body</label>
+            <textarea rows="6" id="body" required></textarea>
+        </div>
+
+        <p id="message"> </p>
+
+        <div class='btn-container'>
+            <button type="submit" id="post-btn">POST<br>Task3</button>
+            <button type="submit" id="put-btn">PUT<br>Task4</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
